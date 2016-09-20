@@ -8,7 +8,7 @@
 
 ``` 
 
-#  Description
+# Description
 This course will cover the ins and outs of web application security from the perspectives of the developer, administrator, and attacker. We will cover attacks from the all too common Cross-Site Scripting (XSS) attack through Cross-Site Request Forgery (CSRF), SQL Injection (SQLi), all the way to more advanced topics.
  
 The goals of this course centers around familiarizing students with how to recognize a possible vulnerability, write a proof-of-concept, and provide helpful remediation so that a developer can properly mitigate the issue. The emphasis will be on hands-on learning and the students will be expected to think creatively as they face common defenses and work with unfamiliar frameworks and languages.
@@ -23,7 +23,7 @@ Late penalty:
 - stops at 50% deduction
 
 # Resources
-- Bitsync key:   
+- Bitsync key: BAPDG2PLBHLTP72NDQLVE3MHVKCF5WUSQ 
 - Suggested reading: Web Application Hacker's Handbook
 
 # Weekly Schedule
@@ -102,9 +102,6 @@ Late penalty:
 	- fake login forms
 
 ### Homework
-- required
-	- special XSS payloads
-	- due next thursday
 - recommended
 	- reading on CSRF and Clickjacking
 		- WAHH Chapter 13 section on "Inducing User Action" (501-515)
@@ -113,7 +110,6 @@ Late penalty:
 
 ## Week 4 - CSRF & Clickjacking
 ### Tuesday
-- go over last weeks hw
 - CSRF
 	- how it works
 	- why it's bad
@@ -143,7 +139,7 @@ Late penalty:
 	- read WAHH chapter 9
 
 
-## Week 5 - SQLi
+## Week 5 - SQLi 1
 ### Tuesday
 - SQL injection
 	- how it works
@@ -156,33 +152,32 @@ Late penalty:
 - SQL practice
 
 ### Lab
-- lockpicking
-	- slides
-	- https://www.youtube.com/watch?v=ChbyaXBKNY8
+- social engineering
 
 ### Thursday
 - SQL injection practice
 	- OWASP Broken Web Application
 
 ### Homework
-- none
+- required
+	- SQL injection challenges
+	- pentest report
+	- due next tuesday
 
 
 ## Week 6 - SQLi 2
 ### Tuesday
-- Advanced SQL injection techniques
+- canceled
 
 ### Lab
 - keyloggers
 
 ### Thursday
-- SQLmap
+- Advanced SQL injection techniques
 
 ### Homework
-- required 1
-	- SQL injection challenges
-	- pentest report
-	- due next tuesday
+- required
+	- none
 - recommended
 	- read WAHH chapter 6
 	- read WAHH chapter 7
@@ -198,18 +193,13 @@ Late penalty:
 	- insufficient entropy
 
 ### Lab
-- metasploit
+- canceled
 
 ### Thursday
 - authentication 2.0
-	- 2 factor auth schemes
-	- single signon
 
 ### Homework
-- required
-	- advanced SQL challenges
-	- pentest report
-	- due next thursday
+- none
 
 
 ## Week 8 - Crypto
@@ -225,46 +215,42 @@ Late penalty:
 - bitcoin
 
 ### Thursday
+- single signon
 - business logic attacks
-- race conditions
 
 ### Homework
-- required
-	- piggy bank pentest
-	- due next thursday
-	- pentest report
+- none
 
 
 ## Week 9 - Misc. Attacks
 ### Tuesday
-- hardware hacking
-- embedded web servers
+- testing techniques
+- review HW answers
 
 ### Lab
-- ???
+- canceled
 
 ### Thursday
-- arbitrary file read
-- local file inclusion
-	- demo
+- canceled
 
 ### Homework
 - required
-	- bank websites pentest
-	- due next thursday
+	- golden bank pentest
 	- pentest report
-- recommended
-	- read WAHH Chapter 10 section "Manipulating File Paths"
-	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
+	- due next thursday
 
 
 ## Week 10 - Advanced Attacks
 ### Tuesday
-- mass assignment attacks
+- homework
+	- SuperSecureBank pentest
+	- pentest report
+	- due thursday
 
 ### Lab
-- testing techniques
-- review
+- lockpicking
+	- slides
+	- https://www.youtube.com/watch?v=ChbyaXBKNY8
 
 ### Thursday
 - final
